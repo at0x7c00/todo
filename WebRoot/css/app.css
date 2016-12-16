@@ -1,0 +1,18 @@
+li{
+	border: 1px solid #dedede;
+    -moz-border-radius: 8px;      /* Gecko browsers */
+    -webkit-border-radius: 8px;   /* Webkit browsers */
+    border-radius:8px;            /* W3C syntax */
+    margin:3px;
+    padding:5px;
+    list-style-type: none;
+}
+li.active{
+	background: #1636b4;
+	color:white;
+}
+input{
+	border: 1px solid #dedede;
+	font-size:16px;
+	height:25px;
+}
