@@ -1,3 +1,14 @@
+body{
+	padding:5px 300px 0px 300px;
+	background: #ddd;	
+}
+h1{
+	font-size:16px;
+}
+#app{
+	background:#fff;
+	padding:15px;
+}
 li{
 	border: 1px solid #dedede;
     -moz-border-radius: 8px;      /* Gecko browsers */
@@ -10,6 +21,9 @@ li{
 li.active{
 	background: #1636b4;
 	color:white;
+}
+li.complated{
+	text-decoration: line-through;
 }
 input{
 	border: 1px solid #dedede;
